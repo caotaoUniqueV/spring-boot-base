@@ -4,23 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-        <artifactId>spring-boot-base</artifactId>
+        <artifactId>commons</artifactId>
         <groupId>com.caotao.boot</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 	
-	<artifactId>commons</artifactId>
-	<packaging>pom</packaging>
-
-
-	<modules>
-		<module>commons-utils</module>
-		<module>commons-model</module>
-		<module>commons-entity</module>
-		<module>commons-dal</module>
-		<module>commons-service</module>
-		<module>commons-controller</module>
-	</modules>
-
+	<artifactId>commons-controller</artifactId>
+	
 
 </project>
