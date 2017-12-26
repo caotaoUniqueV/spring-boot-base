@@ -1,5 +1,12 @@
 package com.caotao.boot.common.aop.context;
 
+import com.caotao.boot.common.utils.AopUtils;
+import com.caotao.boot.common.utils.ThreadLocalUtils;
+import org.aopalliance.intercept.MethodInvocation;
+import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
+import org.springframework.core.ParameterNameDiscoverer;
+import org.springframework.util.DigestUtils;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.LinkedHashMap;
@@ -16,7 +23,7 @@ public class MethodInterceptorHolder {
     /**
      * 参数名称获取器,用于获取方法参数的名称
      */
-    public static final ParameterNameD nameDiscoverer = new LocalVariableTableParameterNameDiscovereR();
+    public static final ParameterNameDiscoverer nameDiscoverer = new LocalVariableTableParameterNameDiscoverer();
 
     public static MethodInterceptorHolder current() {
         return ThreadLocalUtils.get(MethodInterceptorHolder.class.getName());

@@ -15,7 +15,7 @@
 
 	<modules>
 		<module>expands-script</module>
-
+		<module>expands-security</module>
 	</modules>
 
 

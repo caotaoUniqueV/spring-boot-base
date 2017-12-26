@@ -13,7 +13,6 @@
 
 	<dependencies>
 
-
 		<!-- log start -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -38,7 +37,7 @@
 		<dependency>
 			<groupId>ognl</groupId>
 			<artifactId>ognl</artifactId>
-			<optional>true</optional>
+			<version>2.6.9</version>
 		</dependency>
 
 		<!--spel-->
@@ -46,6 +45,17 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
 			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.caotao.boot</groupId>
+			<artifactId>expands-security</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.caotao.boot</groupId>
+			<artifactId>base-utils</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 	

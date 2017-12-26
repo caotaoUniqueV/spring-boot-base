@@ -44,6 +44,12 @@
             <artifactId>commons-beanutils</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.caotao.boot</groupId>
+            <artifactId>expands-script</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 	
 

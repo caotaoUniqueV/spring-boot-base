@@ -14,7 +14,6 @@
 
 	<modules>
 		<module>logging-api</module>
-		<module>logging-aop</module>
 	</modules>
 
 </project>

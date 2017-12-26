@@ -2,9 +2,10 @@
  * @company 杭州聚点-曹开魁
  * @copyright Copyright (c) 2015 - 2017
  */
-package com.caotao.boot.common.logging.aop;
+package com.caotao.boot.common.aop.logging;
 
-import com.caotao.boot.common.logging.LoggerDefine;
+import com.caotao.boot.common.aop.context.MethodInterceptorHolder;
+import com.caotao.boot.common.logging.api.LoggerDefine;
 
 import java.lang.reflect.Method;
 

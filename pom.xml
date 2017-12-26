@@ -14,6 +14,7 @@
     <modules>
 
         <module>authorization</module>
+        <module>base</module>
         <module>core</module>
         <module>aop</module>
         <module>commons</module>
