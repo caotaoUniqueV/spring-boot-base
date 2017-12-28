@@ -16,7 +16,6 @@
 
 		<module>base-utils</module>
 		<module>base-model</module>
-		<module>base-entity</module>
 		<module>base-dal</module>
 		<module>base-service</module>
 		<module>base-controller</module>

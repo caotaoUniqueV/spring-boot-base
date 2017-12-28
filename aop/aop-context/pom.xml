@@ -31,13 +31,14 @@
         </dependency>
 
         <dependency>
-            <groupId>org.hswebframework</groupId>
-            <artifactId>hsweb-utils</artifactId>
+            <groupId>com.caotao.boot</groupId>
+            <artifactId>commons-utils</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.caotao.boot</groupId>
-            <artifactId>commons-utils</artifactId>
+            <artifactId>base-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

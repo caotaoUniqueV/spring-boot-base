@@ -54,7 +54,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.caotao.boot</groupId>
-			<artifactId>base-utils</artifactId>
+			<artifactId>commons-utils</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
