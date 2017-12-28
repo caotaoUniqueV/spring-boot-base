@@ -15,7 +15,6 @@
 
 	<modules>
 
-		<module>aop-logging</module>
 		<module>aop-context</module>
 	</modules>
 

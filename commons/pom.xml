@@ -15,11 +15,6 @@
 
 	<modules>
 		<module>commons-utils</module>
-		<module>commons-model</module>
-		<module>commons-entity</module>
-		<module>commons-dal</module>
-		<module>commons-service</module>
-		<module>commons-controller</module>
 	</modules>
 
 

@@ -4,7 +4,7 @@
  */
 package com.caotao.boot.core.validate;
 
-import com.caotao.boot.core.BusinessException;
+import com.caotao.boot.core.exception.BusinessException;
 
 import java.util.List;
 
