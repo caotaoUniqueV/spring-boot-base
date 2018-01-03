@@ -5,15 +5,13 @@
 package com.caotao.boot.eorm.core;
 
 /**
- * 用途描述
- *
  * @author 曹开魁(Colin)
  * @version $Id: TermTypeConditionalSupport, v0.1 2018年01月02日 16:52 曹开魁(Colin) Exp $
  */
 public interface TermTypeConditionalSupport {
 
     /**
-     * 条件接收器,用于处理接受到的条件并进行对应的操作如{@link Term.Type#and}
+     * 条件接收器,用于处理接受到的条件并进行对应的操作如{@link com.caotao.boot.eorm.core.param.Term.Type#and}
      *
      * @param <T>
      */

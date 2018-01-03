@@ -10,8 +10,6 @@ import java.util.Arrays;
 import java.util.Collection;
 
 /**
- * 用途描述
- *
  * @author 曹开魁(Colin)
  * @version $Id: NestConditional, v0.1 2018年01月02日 17:16 曹开魁(Colin) Exp $
  */

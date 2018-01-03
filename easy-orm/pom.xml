@@ -24,12 +24,31 @@
 	<artifactId>easy-orm</artifactId>
 
 	<dependencies>
+
+		<!-- log start -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<optional>true</optional>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.32</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.caotao.boot</groupId>
 			<artifactId>commons-utils</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-
 	</dependencies>
 
 
